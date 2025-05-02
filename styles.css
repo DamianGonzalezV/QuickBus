@@ -1,0 +1,119 @@
+/* 
+Soft black: #212529
+Nice blue: #3f37c9
+Low gray: #e9ecef
+Btn black: #495057
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  /* background-color: blanchedalmond; */
+  width: 100vw;
+  height: 16rem;
+
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  text-align: center;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  color: #5a00d0;
+}
+
+/* main section - card section */
+
+main {
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  flex-direction: column;
+}
+
+.brand-options-menu {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.brand-btn {
+  width: 26%;
+  height: 2.2rem;
+  background-color: #495057;
+  margin-bottom: 1.5rem;
+
+  border: none;
+  border-radius: 1rem;
+}
+
+.reserve-bus-card {
+  background-color: #e9ecef;
+  width: 65%;
+  height: 65vh;
+  margin: auto;
+
+  border-radius: 1rem;
+
+  display: grid;
+  grid-template-columns: 3fr 1.2fr;
+
+  margin-bottom: 2rem;
+}
+
+.image-card {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+
+  border-radius: 0 1rem 1rem 0;
+  /* grid-column: 2; */
+}
+
+.brand-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.brand-btn p {
+  font-size: 1.2rem;
+  color: #e9ecef;
+  margin-right: 0.5rem;
+}
+
+.brand-btn .ph-duotone {
+  font-size: 1.8rem;
+  /* color: #51db1f; */
+}
+
+.ph-rocket {
+  color: #51db1f;
+}
+
+.ph-bus {
+  color: #ff6c0a;
+}
+
+.ph-airplane-taxiing {
+  color: #d642ff;
+}
