@@ -12,13 +12,16 @@ Btn black: #495057
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-image: url(/images/abstractlines.jpeg);
+}
 
 header {
   /* background-color: blanchedalmond; */
   width: 100vw;
   height: 16rem;
 
-  display: flexbox;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
@@ -64,7 +67,7 @@ main {
 }
 
 .reserve-bus-card {
-  background-color: #e9ecef;
+  background-color: #f8f9fa;
   width: 65%;
   height: 65vh;
   margin: auto;
@@ -75,6 +78,8 @@ main {
   grid-template-columns: 3fr 1.2fr;
 
   margin-bottom: 2rem;
+
+  box-shadow: 0 10px 16px #49505715;
 }
 
 .image-card {
@@ -85,6 +90,12 @@ main {
 
   border-radius: 0 1rem 1rem 0;
   /* grid-column: 2; */
+}
+
+.brand-options-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .brand-btn {
@@ -116,4 +127,45 @@ main {
 
 .ph-airplane-taxiing {
   color: #d642ff;
+}
+
+.ph-cursor-click {
+  font-size: 1.8rem;
+  color: #5a00d0;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.form-boxes {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  align-content: space-between;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-boxes label {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #5a00d0;
+}
+
+.select,
+input {
+  text-align: center;
+  width: 15rem;
+  height: 2rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #5a00d0;
+  color: #e9ecef;
 }
