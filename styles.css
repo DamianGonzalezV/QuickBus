@@ -31,7 +31,7 @@ header {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 4rem;
-  color: #5a00d0;
+  color: rgb(90, 0, 208);
 }
 
 /* main section - card section */
@@ -118,15 +118,15 @@ main {
 }
 
 .ph-rocket {
-  color: #51db1f;
+  color: rgb(81, 219, 31);
 }
 
 .ph-bus {
-  color: #ff6c0a;
+  color: rgb(255, 108, 10);
 }
 
 .ph-airplane-taxiing {
-  color: #d642ff;
+  color: rgb(214, 66, 255);
 }
 
 .ph-cursor-click {
