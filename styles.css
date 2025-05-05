@@ -64,6 +64,12 @@ main {
 
   border: none;
   border-radius: 1rem;
+
+  transition: all 0.3s ease;
+}
+
+.brand-btn:hover {
+  transform: scale(1.1);
 }
 
 .reserve-bus-card {
@@ -117,15 +123,18 @@ main {
   /* color: #51db1f; */
 }
 
-.ph-rocket {
+.ph-rocket,
+.ph-rocket-launch {
   color: rgb(81, 219, 31);
 }
 
-.ph-bus {
+.ph-bus,
+.ph-van {
   color: rgb(255, 108, 10);
 }
 
-.ph-airplane-taxiing {
+.ph-airplane-taxiing,
+.ph-airplane-takeoff {
   color: rgb(214, 66, 255);
 }
 
@@ -168,4 +177,8 @@ input {
   padding: 1rem;
   background-color: #5a00d0;
   color: #e9ecef;
+}
+
+.hide {
+  display: none;
 }
