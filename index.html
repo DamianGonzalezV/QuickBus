@@ -44,7 +44,7 @@
         </button>
         <i class="ph-duotone ph-cursor-click"></i>
       </section>
-      <section class="reserve-bus-card" data-qa="reserve-bus-card">
+      <section class="reserve-bus-card card-style" data-qa="reserve-bus-card">
         <div class="form-div">
           <div class="form-boxes">
             <label for="from">From</label>
@@ -93,8 +93,8 @@
             <input type="text" name="name" id="name" />
           </div>
           <div class="form-boxes">
-            <button class="pay-btn brand-btn">
-              <p>pay with QuickPay</p>
+            <button class="pay-btn">
+              <p>QuickPay</p>
               <i class="ph-duotone ph-wallet"></i>
             </button>
           </div>
@@ -104,6 +104,35 @@
           alt="girl-smiling"
           class="image-card"
         />
+      </section>
+      <section class="pay-section card-style form-div">
+        <div class="secure-div">
+          <p>Secure pay with QuickPay</p>
+          <i class="ph-duotone ph-shield-check"></i>
+        </div>
+        <p>Pay with Credit or Debit Card</p>
+        <div class="pay-div">
+          <label for="name">Name on card</label>
+          <input type="text" placeholder="Name" />
+        </div>
+        <div class="pay-div">
+          <label for="card">Card number</label>
+          <input type="number" placeholder="**** **** **** ****" />
+        </div>
+        <div class="card-info">
+          <div class="pay-div">
+            <label for="expiraton">Expiration day</label>
+            <input type="date" />
+          </div>
+          <div class="pay-div security">
+            <label for="security">Security code</label>
+            <input type="number" placeholder="***" />
+          </div>
+        </div>
+        <button class="pay-btn">
+          <p>QuickPay</p>
+          <i class="ph-duotone ph-wallet"></i>
+        </button>
       </section>
     </main>
   </body>
