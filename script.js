@@ -5,6 +5,8 @@ const vexelBtn = document.querySelector(".vexel-btn");
 const stellarBtn = document.querySelector(".stellar-btn");
 
 const reserveCard = document.querySelector(".reserve-bus-card");
+const payButtonCard = document.querySelector(".pay-btn-card");
+const paySection = document.querySelector(".pay-section");
 
 function changeColor(color) {
   reserveCard.style.boxShadow = `0 5px 6px ${color}`;
@@ -69,4 +71,9 @@ stellarBtn.addEventListener("click", () => {
   novaIconOff();
   stellarIconsActive();
   vexelIconOff();
+});
+
+payButtonCard.addEventListener("click", () => {
+  reserveCard.classList.add("hide");
+  paySection.classList.remove("hide");
 });

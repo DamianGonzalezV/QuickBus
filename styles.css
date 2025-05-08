@@ -65,11 +65,15 @@ main {
   border: none;
   border-radius: 1rem;
 
+  /* transition: all 0.3s ease; */
+}
+
+button {
   transition: all 0.3s ease;
 }
 
-.brand-btn:hover {
-  transform: scale(1.1);
+button:hover {
+  transform: scale(1.05);
 }
 
 .card-style {
